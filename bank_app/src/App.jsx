@@ -12,7 +12,7 @@ import { Navbar,
   GetStarted,
   Hero,
   Stats,
-  Testimonials } from './components';
+  Testimonials } from "./components";
 
 /* Use of dynamic classes */
 const App = () => (
@@ -45,5 +45,5 @@ const App = () => (
 );
 
 
-export default App
+export default App;
 //react arrow function

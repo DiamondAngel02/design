@@ -26,4 +26,4 @@ export {
     Hero,
     Stats,
     Testimonials
-}
+};
