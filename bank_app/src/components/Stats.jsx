@@ -1,4 +1,5 @@
-import React from 'react'
+import { stats } from '../components';
+import styles from '../style';
 
 const Stats = () => {
   return (

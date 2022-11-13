@@ -13,6 +13,14 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      animation: {
+        shine: "shine 1s",
+      },
+      keyframes: {
+        shine: {
+          "100%": {left: "125%"},
+        },
+      },
     },
     screens: {
       xs: "480px",

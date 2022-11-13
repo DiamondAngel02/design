@@ -1,4 +1,5 @@
 import styles from './style';
+<link rel="stylesheet" href="./index.css"/>
 
 import { Navbar,
   Billing,
