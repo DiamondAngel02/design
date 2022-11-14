@@ -5,10 +5,10 @@ import GetStarted from "./GetStarted";
 const Hero = () => (
   <section
     id="home"
-    className={`flex md:flex-row flex-col ${styles.paddingX} mt-0 ss:mt-8 md:pr-0`}
+    className={`flex md:flex-row flex-col ${styles.paddingX} mt-8 md:pr-0`}
   >
     <div
-      className={`flex-1 ${styles.flexStart} flex-col sm:px-0 xs:px-16 pb-16 mb:pb-0 `}
+      className={`flex-1 ${styles.flexStart} flex-col sm:px-0 xs:px-6 px-4 pb-16 mb:pb-0 `}
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
@@ -19,7 +19,7 @@ const Hero = () => (
       </div>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] mr-1">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[45px] text-white ss:leading-[100px] leading-[75px] mr-1">
           The Next <br className="sm:block hidden" />{" "}
           <span className="text-gradient">Generation</span>{" "}
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => (
         </div>
         
       </div>
-      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
+      <h1 className="font-poppins font-semibold ss:text-[68px] text-[45px] text-white ss:leading-[100px] leading-[75px] w-full">
         Payment Method.
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
